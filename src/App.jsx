@@ -3,6 +3,7 @@ import { Container } from "./Components/Container";
 import { Main } from "./Components/Main";
 import { SearchInput } from "./Components/SearchInput";
 import { Typography } from "./Components/Typography";
+import Card from "./Components/Card";
 
 function App() {
   return (
@@ -18,6 +19,40 @@ function App() {
           Veja como estão suas finanças hoje.
         </Typography>
         </div>
+        <section>
+          <Card>
+            <Card.Header>
+              Orçamento diário disponível:
+            </Card.Header>
+            <Card.Body>
+              R$200
+            </Card.Body>
+          </Card>
+           <Card>
+            <Card.Header>
+              Progresso da meta financeira
+            </Card.Header>
+            <Card.Body>
+              Economizar
+            </Card.Body>
+          </Card>
+           <Card>
+            <Card.Header>
+              Movimentação financeira
+            </Card.Header>
+            <Card.Body>
+              R$200
+            </Card.Body>
+          </Card>
+           <Card>
+            <Card.Header>
+              Minhas contas
+            </Card.Header>
+            <Card.Body>
+              R$200
+            </Card.Body>
+          </Card>
+        </section>
       </Main>
     </Container>
   );
