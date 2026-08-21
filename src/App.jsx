@@ -5,6 +5,7 @@ import { SearchInput } from "./Components/SearchInput";
 import { Typography } from "./Components/Typography";
 import Card from "./Components/Card";
 import { DailyBudget } from "./Components/DailyBudget";
+import { SavingsStatus } from "./Components/SavingsStatus";
 
 function App() {
   return (
@@ -34,7 +35,7 @@ function App() {
               Progresso da meta financeira
             </Card.Header>
             <Card.Body>
-              Economizar
+              <SavingsStatus percent={40}/>
             </Card.Body>
           </Card>
            <Card>

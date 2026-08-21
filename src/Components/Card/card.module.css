@@ -11,7 +11,7 @@ border-radius: 24px;
     font-size: 20px;
     line-height: 120%;
     text-align: center;
-    
+    color: var(--neutral-text);
     padding: 16px;
 
 }
