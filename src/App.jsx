@@ -4,6 +4,7 @@ import { Main } from "./Components/Main";
 import { SearchInput } from "./Components/SearchInput";
 import { Typography } from "./Components/Typography";
 import Card from "./Components/Card";
+import { DailyBudget } from "./Components/DailyBudget";
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
               Orçamento diário disponível:
             </Card.Header>
             <Card.Body>
-              R$200
+              <DailyBudget value={250}/>
             </Card.Body>
           </Card>
            <Card>
