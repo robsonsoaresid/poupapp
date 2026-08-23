@@ -6,9 +6,9 @@ import { Typography } from "./Components/Typography";
 import Card from "./Components/Card";
 import { DailyBudget } from "./Components/DailyBudget";
 import { SavingsStatus } from "./Components/SavingsStatus";
+import { Transactions } from "./Components/Transactions";
 
 import styles from "./app.module.css";
-import { Transctions } from "./Components/Transctions";
 
 function App() {
   return (
@@ -39,7 +39,7 @@ function App() {
             <Card>
               <Card.Header>Movimentação financeira</Card.Header>
               <Card.Body>
-                <Transctions />
+                <Transactions />
               </Card.Body>
             </Card>
             <Card>
