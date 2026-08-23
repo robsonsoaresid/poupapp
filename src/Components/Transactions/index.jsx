@@ -19,7 +19,7 @@ export const Transactions = () => {
 
     return(
         <>
-        <lu className={styles.list}>
+        <ul className={styles.list}>
             {items.map((trasactionItem, index) => {
 
                 return (
@@ -28,13 +28,13 @@ export const Transactions = () => {
 
                     </li>
                 )
-
             })}
-        </lu>
-
+        </ul>
+        <div className={styles.action}>
         <Button>
             <IconCurrency /> Adicionar tansação
         </Button>
+        </div>
         </>
     )
 }
