@@ -1,7 +1,7 @@
 .btn {
     background-color: transparent;
     border: 1px solid var(--neutral-text);
-    padding: 10px 24px; 
+    padding: 12px 24px; 
     color: var(--neutral-text);
     display: flex;
     align-items: center;
@@ -9,7 +9,6 @@
     cursor: pointer;
     gap: 8px;
     border-radius: 24px;
-    font-weight: 500;
     font-size: 16px;
     line-height: 120%;
    

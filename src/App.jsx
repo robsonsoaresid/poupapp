@@ -9,6 +9,7 @@ import { SavingsStatus } from "./Components/SavingsStatus";
 import { Transactions } from "./Components/Transactions";
 
 import styles from "./app.module.css";
+import { Accounts } from "./Components/Accounts";
 
 function App() {
   return (
@@ -45,15 +46,7 @@ function App() {
             <Card>
               <Card.Header>Minhas contas</Card.Header>
               <Card.Body>
-                <p>R$200</p>
-                <p>R$200</p>
-                <p>R$200</p>
-                <p>R$200</p>
-                <p>R$200</p>
-                <p>R$200</p>
-                <p>R$200</p>
-                <p>R$200</p>
-                <p>R$200</p>
+                <Accounts/>
               </Card.Body>
             </Card>
           </section>

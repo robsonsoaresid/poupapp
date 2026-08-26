@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     list-style: none;
-    margin-bottom: 48px;
+     margin-bottom: 124px;
 }
 
 .list li {
@@ -20,5 +20,4 @@
 .action {
     display: flex;
     justify-content: center;
-    
 }
