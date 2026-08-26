@@ -1,0 +1,36 @@
+.account {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.account p {
+    margin: 0;
+}
+
+.bank {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    width: 700;
+    font-size: 15px;
+    line-height: 120%;
+    color: var(--neutral-text);
+}
+
+.bank p {
+    display: flex;
+    gap: 8px;
+    
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 700;
+    font-size: 15px;
+    line-height: 120%;
+    color: var(--neutral-text);
+}
+
