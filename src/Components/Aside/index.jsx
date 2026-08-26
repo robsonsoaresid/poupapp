@@ -1,5 +1,5 @@
 import styles from "./aside.module.css";
-import logo from "../../assets/logo.svg";
+import logo from "../../assets/Logo.svg";
 
 export const Aside = () => {
   return (
